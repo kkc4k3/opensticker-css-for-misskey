@@ -33,9 +33,7 @@ app.get("/style.css", async (req, res) => {
     res.send("@charset 'utf-8';" + cssBody)
 })
 
-app.listen(3000, () => {
-    console.log("http://localhost:3000")
-})
+app.listen(process.env.PORT || 3000, () => {})
 
 // css生成
 function makeStyle(item, defaultColor) {
