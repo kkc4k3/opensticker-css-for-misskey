@@ -1,0 +1,12 @@
+{
+  "name": "openstickerCss",
+  "version": "1.0.0",
+  "description": "opensticker css for misskey",
+  "main": "index.js",
+  "author": "kkcake <kkc4k3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1"
+  }
+}
