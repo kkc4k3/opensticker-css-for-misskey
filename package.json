@@ -1,5 +1,5 @@
 {
-  "name": "openstickerCss",
+  "name": "opensticker-css",
   "version": "1.0.0",
   "description": "opensticker css for misskey",
   "main": "index.js",
