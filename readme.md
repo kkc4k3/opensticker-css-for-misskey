@@ -1,5 +1,5 @@
 # OpenSticker CSS for Misskey
-[OpenSticker](https://opensticker.0px.io/) の[Misskey](https://join.misskey.page/ja/)に対応したCSSを生成します  
+[OpenSticker](https://opensticker.0px.io/)の[Misskey](https://join.misskey.page/ja/)に対応したCSSを生成します  
 基本的には[本家](https://opensticker.0px.io/)や[InstanceTicker](https://miy.pw/)の見た目に倣いつつ細かいところをkkcakeの好みに修正した感じです  
 ↓こんな感じのデコレーションがされます
 
