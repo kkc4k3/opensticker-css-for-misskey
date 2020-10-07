@@ -5,7 +5,7 @@
 node.jsでうごいてます
 
 ## デプロイ先
-- [Google Cloud Functions](https://asia-northeast1-opensticker-css-for-misskey.cloudfunctions.net/create_css)  
+- [Google Cloud Functions](https://asia-northeast1-opensticker-css-for-misskey.cloudfunctions.net/create_css)（推奨）
 - [heroku](https://opensticker-css-misskey.herokuapp.com/style.css)  
 
 どっちも無料枠内での運用のつもりだから急に使えなくなったりしたらごめん  
