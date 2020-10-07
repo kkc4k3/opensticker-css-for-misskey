@@ -2,6 +2,11 @@
 [OpenSticker](https://opensticker.0px.io/) のMisskeyに対応したCSSを生成します  
 データは公開されているjsonを利用しています：[https://s.0px.io/json](https://s.0px.io/json)  
 
+↓こんな感じのデコレーションがされます
+
+![CSSを適用した場合のイメージ](<https://d1rv60vthn4ial.cloudfront.net/misskey/59737395-1ce1-47b0-a70b-2165b0ecb74d.png>
+)
+
 node.jsでうごいてます
 
 ## デプロイ先
