@@ -1,12 +1,12 @@
 # OpenSticker CSS for Misskey
-[OpenSticker](https://opensticker.0px.io/) のMisskeyに対応したCSSを生成します  
+[OpenSticker](https://opensticker.0px.io/) の[Misskey](https://join.misskey.page/ja/)に対応したCSSを生成します  
 基本的には[本家](https://opensticker.0px.io/)や[InstanceTicker](https://miy.pw/)の見た目に倣いつつ細かいところをkkcakeの好みに修正した感じです  
 ↓こんな感じのデコレーションがされます
 
 ![CSSを適用した場合のイメージ](<https://d1rv60vthn4ial.cloudfront.net/misskey/59737395-1ce1-47b0-a70b-2165b0ecb74d.png>
 )
 
-データは公開されているjsonを利用しています：[https://s.0px.io/json](https://s.0px.io/json)  
+データは[公開されているjson](https://s.0px.io/json)を利用しています  
 node.jsでうごいてます
 
 ## デプロイ先
@@ -34,6 +34,7 @@ link(rel="stylesheet" href="https://asia-northeast1-opensticker-css-for-misskey.
 ```
 
 ## ありがとうリスト
+- [Misskey](https://join.misskey.page/ja/)
 - [OpenSticker](https://opensticker.0px.io/)  
 - [misskeyにopenstickerを適用する](https://www.kaias1jp.com/entry/2020/09/22/105034)  
 元々こちらの記事で公開されていたcssを利用させていただこうとしていたのですが自鯖にデコレーションがされないように見えた（のですが実は後々検索かけたところその対応もされていた様だったので完全な二番煎じと化してしまった）ので自前で実装したのがこれになります
