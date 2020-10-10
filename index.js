@@ -60,9 +60,10 @@ function makeStyle(item, defaultColor) {
     const css = [
         `content:"${item.name}"`,
         "display:block",
-        "width:100%",
+        "width:auto",
         "margin: 2px 0 5px;",
         "padding-left:25px;",
+        "padding-right:16px",
         "border-radius: 3px;",
         "font-size:12px",
         "font-weight:700",
