@@ -15,7 +15,9 @@ app.get("/style.css", async (req, res) => {
     var cssBody = ""
     await instance.forEach((item) => {
         const itemList = [
-            `a[class*='eiwwqkts avatar'][title*='@${item.domain}']+.main>.body::before{`,
+            `a[class*='eiwwqkts avatar'][title*='@${item.domain}']+.main>.body::before,
+            a[class*='eiwwqkts cat avatar'][title*='@${item.domain}']+.main>.body::before
+            {`,
             makeStyle(item, defaultColor),
             "}",
         ]
@@ -25,7 +27,9 @@ app.get("/style.css", async (req, res) => {
         if (req.query.domain === item.domain) {
             cssBody =
                 cssBody +
-                `a[class*='eiwwqkts avatar']:not([title*='@'])+.main>.body::before{` +
+                `a[class*='eiwwqkts avatar']:not([title*='@'])+.main>.body::before,
+                a[class*='eiwwqkts cat avatar']:not([title*='@'])+.main>.body::before{
+                ` +
                 makeStyle(item, defaultColor) +
                 "}"
         }
@@ -61,10 +65,10 @@ function makeStyle(item, defaultColor) {
         `content:"${item.name}"`,
         "display:block",
         "width:auto",
-        "margin: 2px 0 5px;",
-        "padding-left:25px;",
+        "margin: 2px 0 5px",
+        "padding-left:25px",
         "padding-right:16px",
-        "border-radius: 3px;",
+        "border-radius: 3px",
         "font-size:12px",
         "font-weight:700",
         "line-height:1.5",
